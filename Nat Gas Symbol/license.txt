@@ -1,0 +1,15 @@
+Use restrictions
+You may not use the Services to develop machine learning models or related technology.
+
+In addition to the “Respect others” section in the Google Terms of Service, you must comply with our Prohibited Use Policy, which provides additional details about appropriate conduct when using the Services.
+
+The Services include safety features to block harmful content, such as content that violates our Prohibited Use Policy. As noted in the “Respect others” section in the Google Terms of Service, you may not attempt to bypass these protective measures or use content that violates these Terms.
+
+You will comply with Service-specific notices if applicable, such as any warnings not to input sensitive or confidential information.
+
+Disclaimers
+The Services may sometimes provide inaccurate or offensive content that doesn’t represent Google’s views.
+
+Use discretion before relying on, publishing, or otherwise using content provided by the Services.
+
+Don’t rely on the Services for medical, legal, financial, or other professional advice. Any content regarding those topics is provided for informational purposes only and is not a substitute for advice from a qualified professional.
