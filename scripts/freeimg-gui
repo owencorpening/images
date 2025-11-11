@@ -1,0 +1,26 @@
+#!/bin/bash
+# freeimg-gui — KDE GUI for free stock image search (Unsplash, Pexels, Pixabay)
+
+# Prompt user
+query=$(kdialog --inputbox "Search free image sites (Unsplash, Pexels, Pixabay):")
+[ -z "$query" ] && exit 0
+
+# Limit sites (edit to include others if you like)
+sites='site:unsplash.com OR site:pexels.com OR site:pixabay.com'
+
+# Combine the query and sites into one string
+full_query="$query $sites"
+
+# Encode safely using Python
+encoded=$(python3 -c "import urllib.parse,sys; print(urllib.parse.quote(sys.argv[1]))" "$full_query")
+
+# Build URL
+url="https://www.google.com/search?q=${encoded}&tbm=isch"
+
+# Open in browser
+xdg-open "$url" >/dev/null 2>&1 &
+
+
+
+
+
