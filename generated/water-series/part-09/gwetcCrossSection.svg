@@ -1,0 +1,104 @@
+<svg width="680" height="520" viewBox="0 0 680 520" role="img" xmlns="http://www.w3.org/2000/svg">
+<title>GWETC corridor cross-section</title>
+<desc>Cross-section of the Global Water–Energy–Transport Corridor showing five integrated systems within a shared 330–660 ft right-of-way.</desc>
+<style>
+  text { font-family: Arial, sans-serif; fill: #2C2C2A; }
+  .th { font-size: 14px; font-weight: 600; }
+  .ts { font-size: 12px; font-weight: 400; }
+</style>
+
+<!-- Ground surface -->
+<rect x="40" y="220" width="600" height="8" rx="2" fill="#B4B2A9" opacity="0.6"/>
+<rect x="40" y="228" width="600" height="140" rx="0" fill="#D3D1C7" opacity="0.25"/>
+
+<!-- ROW boundary markers -->
+<line x1="40" y1="160" x2="40" y2="380" stroke="#888780" stroke-width="0.5" stroke-dasharray="4 3"/>
+<line x1="640" y1="160" x2="640" y2="380" stroke="#888780" stroke-width="0.5" stroke-dasharray="4 3"/>
+
+<!-- ROW dimension line -->
+<line x1="40" y1="155" x2="640" y2="155" stroke="#888780" stroke-width="0.5" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<text class="ts" x="340" y="148" text-anchor="middle" fill="#5F5E5A">330–660 ft (100–200 m) engineered right-of-way</text>
+
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M2 1L8 5L2 9" fill="none" stroke="#888780" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </marker>
+</defs>
+
+<!-- SYSTEM 1: Water main -->
+<ellipse cx="110" cy="290" rx="38" ry="38" fill="#E6F1FB" stroke="#185FA5" stroke-width="1"/>
+<ellipse cx="110" cy="290" rx="28" ry="28" fill="none" stroke="#85B7EB" stroke-width="1" opacity="0.6"/>
+<text class="th" x="110" y="287" text-anchor="middle" fill="#0C447C">Water</text>
+<text class="ts" x="110" y="303" text-anchor="middle" fill="#185FA5">main</text>
+<text class="ts" x="110" y="345" text-anchor="middle" fill="#5F5E5A">79–118 in dia.</text>
+
+<!-- SYSTEM 2: Gas pipeline -->
+<ellipse cx="220" cy="300" rx="30" ry="30" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<ellipse cx="220" cy="300" rx="22" ry="22" fill="none" stroke="#EF9F27" stroke-width="0.8" opacity="0.5"/>
+<text class="th" x="220" y="297" text-anchor="middle" fill="#633806">Gas</text>
+<text class="ts" x="220" y="313" text-anchor="middle" fill="#854F0B">pipeline</text>
+<text class="ts" x="220" y="345" text-anchor="middle" fill="#5F5E5A">36–48 in dia.</text>
+
+<!-- SYSTEM 3: Rail -->
+<rect x="295" y="215" width="100" height="12" rx="2" fill="#5DCAA5" opacity="0.3" stroke="#1D9E75" stroke-width="0.5"/>
+<rect x="302" y="200" width="8" height="28" rx="2" fill="#1D9E75" opacity="0.8"/>
+<rect x="380" y="200" width="8" height="28" rx="2" fill="#1D9E75" opacity="0.8"/>
+<rect x="298" y="208" width="94" height="5" rx="1" fill="#085041" opacity="0.6"/>
+<rect x="298" y="218" width="94" height="5" rx="1" fill="#085041" opacity="0.6"/>
+<text class="th" x="345" y="182" text-anchor="middle" fill="#085041">Rail freight</text>
+<text class="ts" x="345" y="345" text-anchor="middle" fill="#5F5E5A">Standard gauge</text>
+
+<!-- SYSTEM 4: Power transmission -->
+<line x1="450" y1="220" x2="462" y2="140" stroke="#993C1D" stroke-width="2"/>
+<line x1="500" y1="220" x2="488" y2="140" stroke="#993C1D" stroke-width="2"/>
+<line x1="448" y1="155" x2="502" y2="155" stroke="#993C1D" stroke-width="2"/>
+<line x1="475" y1="155" x2="475" y2="220" stroke="#993C1D" stroke-width="1.5"/>
+<circle cx="448" cy="157" r="3" fill="#D85A30"/>
+<circle cx="475" cy="142" r="3" fill="#D85A30"/>
+<circle cx="502" cy="157" r="3" fill="#D85A30"/>
+<line x1="40" y1="157" x2="448" y2="157" stroke="#D85A30" stroke-width="0.8" opacity="0.6"/>
+<line x1="502" y1="157" x2="640" y2="157" stroke="#D85A30" stroke-width="0.8" opacity="0.6"/>
+<line x1="40" y1="143" x2="475" y2="142" stroke="#D85A30" stroke-width="0.8" opacity="0.6"/>
+<line x1="475" y1="142" x2="640" y2="142" stroke="#D85A30" stroke-width="0.8" opacity="0.6"/>
+<text class="th" x="475" y="123" text-anchor="middle" fill="#712B13">Power</text>
+<text class="ts" x="475" y="136" text-anchor="middle" fill="#993C1D">500 kV HVDC</text>
+<text class="ts" x="475" y="345" text-anchor="middle" fill="#5F5E5A">HVDC tower</text>
+
+<!-- SYSTEM 5: Access road + fiber -->
+<rect x="555" y="213" width="75" height="12" rx="2" fill="#888780" opacity="0.5" stroke="#5F5E5A" stroke-width="0.5"/>
+<line x1="592" y1="213" x2="592" y2="225" stroke="white" stroke-width="1.5" stroke-dasharray="3 3" opacity="0.7"/>
+<rect x="570" y="255" width="45" height="10" rx="3" fill="#5F5E5A" opacity="0.6"/>
+<text class="ts" x="592" y="263" text-anchor="middle" fill="white">fiber</text>
+<text class="th" x="592" y="196" text-anchor="middle" fill="#444441">Road +</text>
+<text class="ts" x="592" y="208" text-anchor="middle" fill="#5F5E5A">fiber / SCADA</text>
+<text class="ts" x="592" y="345" text-anchor="middle" fill="#5F5E5A">All-weather</text>
+
+<!-- Ground labels -->
+<text class="ts" x="42" y="238" fill="#888780">surface</text>
+<text class="ts" x="42" y="308" fill="#888780">sub-</text>
+<text class="ts" x="42" y="321" fill="#888780">grade</text>
+
+<!-- Shared cost callout -->
+<rect x="160" y="370" width="360" height="36" rx="6" fill="none" stroke="#888780" stroke-width="0.5" stroke-dasharray="4 3"/>
+<text class="ts" x="340" y="385" text-anchor="middle" fill="#5F5E5A">Shared surveying · grading · security · maintenance access</text>
+<text class="ts" x="340" y="400" text-anchor="middle" fill="#5F5E5A">40–60% cost reduction vs. separate construction</text>
+
+<!-- ROW labels -->
+<text class="ts" x="35" y="170" text-anchor="middle" fill="#888780">ROW</text>
+<text class="ts" x="645" y="170" text-anchor="middle" fill="#888780">ROW</text>
+
+<!-- Caption -->
+<text class="ts" x="340" y="430" text-anchor="middle" fill="#888780">Figure 1 — GWETC cross-section: five integrated systems, one engineered right-of-way</text>
+
+<!-- Legend -->
+<rect x="60" y="448" width="12" height="12" rx="2" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+<text class="ts" x="78" y="459" fill="#2C2C2A">Water</text>
+<rect x="130" y="448" width="12" height="12" rx="2" fill="#FAEEDA" stroke="#854F0B" stroke-width="0.5"/>
+<text class="ts" x="148" y="459" fill="#2C2C2A">Gas</text>
+<rect x="190" y="448" width="12" height="12" rx="2" fill="#5DCAA5" stroke="#1D9E75" stroke-width="0.5"/>
+<text class="ts" x="208" y="459" fill="#2C2C2A">Rail</text>
+<rect x="250" y="448" width="12" height="12" rx="2" fill="#FAECE7" stroke="#993C1D" stroke-width="0.5"/>
+<text class="ts" x="268" y="459" fill="#2C2C2A">Power</text>
+<rect x="326" y="448" width="12" height="12" rx="2" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="0.5"/>
+<text class="ts" x="344" y="459" fill="#2C2C2A">Road + fiber</text>
+</svg>
