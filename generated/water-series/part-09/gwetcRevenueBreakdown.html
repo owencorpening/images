@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GWETC Figure 2 — Revenue Breakdown</title>
+<style>
+  body { font-family: Arial, sans-serif; background: #fff; color: #2C2C2A; max-width: 680px; margin: 40px auto; padding: 0 20px; }
+  .rv-title { font-size: 16px; font-weight: 600; margin-bottom: 4px; }
+  .rv-sub { font-size: 13px; color: #5F5E5A; margin-bottom: 28px; }
+  .rv-row { display: flex; align-items: center; gap: 10px; margin-bottom: 16px; }
+  .rv-label { font-size: 13px; width: 160px; flex-shrink: 0; text-align: right; }
+  .rv-bar-wrap { flex: 1; position: relative; height: 32px; }
+  .rv-bar-bg { position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: #F1EFE8; border-radius: 4px; }
+  .rv-bar { position: absolute; top: 0; left: 0; bottom: 0; border-radius: 4px; }
+  .rv-range { position: absolute; top: 0; left: 0; bottom: 0; border-radius: 4px; opacity: 0.25; }
+  .rv-value { font-size: 12px; color: #5F5E5A; width: 130px; flex-shrink: 0; }
+  .rv-pct { font-size: 12px; color: #5F5E5A; width: 48px; flex-shrink: 0; text-align: right; }
+  .rv-divider { border: none; border-top: 1px solid #D3D1C7; margin: 18px 0; }
+  .rv-total-row { display: flex; align-items: center; gap: 10px; }
+  .rv-anchor { font-size: 12px; color: #5F5E5A; margin-top: 20px; padding: 12px 14px; background: #F5F0E8; border-radius: 6px; border-left: 3px solid #185FA5; line-height: 1.6; }
+  .rv-anchor span { color: #2C2C2A; font-weight: 600; }
+  .rv-caption { font-size: 11px; color: #888780; margin-top: 18px; text-align: center; }
+  .water-label { color: #185FA5; font-weight: 600; }
+  .anchor-tag { position: absolute; top: 50%; left: calc(4% + 6px); transform: translateY(-50%); font-size: 10px; color: #185FA5; white-space: nowrap; }
+</style>
+</head>
+<body>
+
+<div class="rv-title">GWETC revenue per 310-mile corridor segment</div>
+<div class="rv-sub">Annual net revenue at steady state — five independent streams</div>
+
+<div class="rv-row">
+  <div class="rv-label">Natural gas</div>
+  <div class="rv-bar-wrap">
+    <div class="rv-bar-bg"></div>
+    <div class="rv-range" style="width:100%;background:#EF9F27;"></div>
+    <div class="rv-bar" style="width:58%;background:#BA7517;"></div>
+  </div>
+  <div class="rv-value">$330M – $1,160M</div>
+  <div class="rv-pct">45–65%</div>
+</div>
+
+<div class="rv-row">
+  <div class="rv-label">Power transmission</div>
+  <div class="rv-bar-wrap">
+    <div class="rv-bar-bg"></div>
+    <div class="rv-range" style="width:72%;background:#378ADD;"></div>
+    <div class="rv-bar" style="width:34%;background:#185FA5;"></div>
+  </div>
+  <div class="rv-value">$193M – $725M</div>
+  <div class="rv-pct">25–40%</div>
+</div>
+
+<div class="rv-row">
+  <div class="rv-label">Rail freight</div>
+  <div class="rv-bar-wrap">
+    <div class="rv-bar-bg"></div>
+    <div class="rv-range" style="width:10%;background:#1D9E75;"></div>
+    <div class="rv-bar" style="width:4%;background:#0F6E56;"></div>
+  </div>
+  <div class="rv-value">$23M – $60M</div>
+  <div class="rv-pct">3–8%</div>
+</div>
+
+<div class="rv-row">
+  <div class="rv-label water-label">Water sales</div>
+  <div class="rv-bar-wrap">
+    <div class="rv-bar-bg"></div>
+    <div class="rv-range" style="width:4%;background:#378ADD;opacity:0.4;"></div>
+    <div class="rv-bar" style="width:1.6%;background:#185FA5;"></div>
+    <div class="anchor-tag">strategic anchor</div>
+  </div>
+  <div class="rv-value">$9M – $23M</div>
+  <div class="rv-pct">1–3%</div>
+</div>
+
+<div class="rv-row">
+  <div class="rv-label">Communications</div>
+  <div class="rv-bar-wrap">
+    <div class="rv-bar-bg"></div>
+    <div class="rv-range" style="width:3%;background:#888780;"></div>
+    <div class="rv-bar" style="width:1%;background:#5F5E5A;"></div>
+  </div>
+  <div class="rv-value">$6M – $26M</div>
+  <div class="rv-pct">1–3%</div>
+</div>
+
+<hr class="rv-divider"/>
+
+<div class="rv-total-row">
+  <div class="rv-label" style="font-weight:600;">Total</div>
+  <div style="flex:1;font-size:14px;font-weight:600;">$561M – $1,994M per year</div>
+  <div class="rv-pct" style="font-weight:600;">100%</div>
+</div>
+
+<div class="rv-anchor">
+  <span>Water is the smallest revenue stream — and the reason the corridor exists.</span> Energy and freight retire the debt. Water provides the social license. Bond maturity: 15–20 years vs. 25–30 for water-only projects.
+</div>
+
+<div class="rv-caption">Figure 2 — GWETC revenue breakdown, 310-mile (500 km) corridor segment at steady state</div>
+
+</body>
+</html>
