@@ -1,4 +1,5 @@
 <svg width="680" height="520" viewBox="0 0 680 520" role="img" xmlns="http://www.w3.org/2000/svg">
+<rect width="680" height="520" fill="white"/>
 <title>GWETC corridor cross-section</title>
 <desc>Cross-section of the Global Water–Energy–Transport Corridor showing five integrated systems within a shared 330–660 ft right-of-way.</desc>
 <style>
@@ -8,8 +9,8 @@
 </style>
 
 <!-- Ground surface -->
-<rect x="40" y="220" width="600" height="8" rx="2" fill="#B4B2A9" opacity="0.6"/>
-<rect x="40" y="228" width="600" height="140" rx="0" fill="#D3D1C7" opacity="0.25"/>
+<rect x="40" y="220" width="600" height="8" rx="2" fill="#B4B2A9" opacity="0.9"/>
+<rect x="40" y="228" width="600" height="140" rx="0" fill="#D3D1C7" opacity="0.5"/>
 
 <!-- ROW boundary markers -->
 <line x1="40" y1="160" x2="40" y2="380" stroke="#888780" stroke-width="0.5" stroke-dasharray="4 3"/>
