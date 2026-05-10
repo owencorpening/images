@@ -18,7 +18,7 @@
 
 <!-- ROW dimension line -->
 <line x1="40" y1="155" x2="640" y2="155" stroke="#888780" stroke-width="0.5" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
-<text class="ts" x="340" y="148" text-anchor="middle" fill="#5F5E5A">330–660 ft (100–200 m) engineered right-of-way</text>
+<text class="ts" x="340" y="148" text-anchor="middle" fill="#3D3C39">330–660 ft (100–200 m) engineered right-of-way</text>
 
 <defs>
   <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
@@ -27,27 +27,27 @@
 </defs>
 
 <!-- SYSTEM 1: Water main -->
-<ellipse cx="110" cy="290" rx="38" ry="38" fill="#E6F1FB" stroke="#185FA5" stroke-width="1"/>
-<ellipse cx="110" cy="290" rx="28" ry="28" fill="none" stroke="#85B7EB" stroke-width="1" opacity="0.6"/>
+<ellipse cx="110" cy="290" rx="38" ry="38" fill="#A8CEF0" stroke="#185FA5" stroke-width="1.5"/>
+<ellipse cx="110" cy="290" rx="28" ry="28" fill="none" stroke="#185FA5" stroke-width="1" opacity="0.5"/>
 <text class="th" x="110" y="287" text-anchor="middle" fill="#0C447C">Water</text>
-<text class="ts" x="110" y="303" text-anchor="middle" fill="#185FA5">main</text>
-<text class="ts" x="110" y="345" text-anchor="middle" fill="#5F5E5A">79–118 in dia.</text>
+<text class="ts" x="110" y="303" text-anchor="middle" fill="#0C447C">main</text>
+<text class="ts" x="110" y="345" text-anchor="middle" fill="#3D3C39">79–118 in dia.</text>
 
 <!-- SYSTEM 2: Gas pipeline -->
-<ellipse cx="220" cy="300" rx="30" ry="30" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
-<ellipse cx="220" cy="300" rx="22" ry="22" fill="none" stroke="#EF9F27" stroke-width="0.8" opacity="0.5"/>
+<ellipse cx="220" cy="300" rx="30" ry="30" fill="#F0C97A" stroke="#854F0B" stroke-width="1.5"/>
+<ellipse cx="220" cy="300" rx="22" ry="22" fill="none" stroke="#854F0B" stroke-width="0.8" opacity="0.5"/>
 <text class="th" x="220" y="297" text-anchor="middle" fill="#633806">Gas</text>
-<text class="ts" x="220" y="313" text-anchor="middle" fill="#854F0B">pipeline</text>
-<text class="ts" x="220" y="345" text-anchor="middle" fill="#5F5E5A">36–48 in dia.</text>
+<text class="ts" x="220" y="313" text-anchor="middle" fill="#633806">pipeline</text>
+<text class="ts" x="220" y="345" text-anchor="middle" fill="#3D3C39">36–48 in dia.</text>
 
 <!-- SYSTEM 3: Rail -->
-<rect x="295" y="215" width="100" height="12" rx="2" fill="#5DCAA5" opacity="0.3" stroke="#1D9E75" stroke-width="0.5"/>
-<rect x="302" y="200" width="8" height="28" rx="2" fill="#1D9E75" opacity="0.8"/>
-<rect x="380" y="200" width="8" height="28" rx="2" fill="#1D9E75" opacity="0.8"/>
-<rect x="298" y="208" width="94" height="5" rx="1" fill="#085041" opacity="0.6"/>
-<rect x="298" y="218" width="94" height="5" rx="1" fill="#085041" opacity="0.6"/>
+<rect x="295" y="215" width="100" height="12" rx="2" fill="#5DCAA5" opacity="0.8" stroke="#1D9E75" stroke-width="0.8"/>
+<rect x="302" y="200" width="8" height="28" rx="2" fill="#1D9E75"/>
+<rect x="380" y="200" width="8" height="28" rx="2" fill="#1D9E75"/>
+<rect x="298" y="208" width="94" height="5" rx="1" fill="#085041" opacity="0.85"/>
+<rect x="298" y="218" width="94" height="5" rx="1" fill="#085041" opacity="0.85"/>
 <text class="th" x="345" y="182" text-anchor="middle" fill="#085041">Rail freight</text>
-<text class="ts" x="345" y="345" text-anchor="middle" fill="#5F5E5A">Standard gauge</text>
+<text class="ts" x="345" y="345" text-anchor="middle" fill="#3D3C39">Standard gauge</text>
 
 <!-- SYSTEM 4: Power transmission -->
 <line x1="450" y1="220" x2="462" y2="140" stroke="#993C1D" stroke-width="2"/>
@@ -63,16 +63,16 @@
 <line x1="475" y1="142" x2="640" y2="142" stroke="#D85A30" stroke-width="0.8" opacity="0.6"/>
 <text class="th" x="475" y="123" text-anchor="middle" fill="#712B13">Power</text>
 <text class="ts" x="475" y="136" text-anchor="middle" fill="#993C1D">500 kV HVDC</text>
-<text class="ts" x="475" y="345" text-anchor="middle" fill="#5F5E5A">HVDC tower</text>
+<text class="ts" x="475" y="345" text-anchor="middle" fill="#3D3C39">HVDC tower</text>
 
 <!-- SYSTEM 5: Access road + fiber -->
-<rect x="555" y="213" width="75" height="12" rx="2" fill="#888780" opacity="0.5" stroke="#5F5E5A" stroke-width="0.5"/>
+<rect x="555" y="213" width="75" height="12" rx="2" fill="#888780" opacity="0.85" stroke="#5F5E5A" stroke-width="0.5"/>
 <line x1="592" y1="213" x2="592" y2="225" stroke="white" stroke-width="1.5" stroke-dasharray="3 3" opacity="0.7"/>
-<rect x="570" y="255" width="45" height="10" rx="3" fill="#5F5E5A" opacity="0.6"/>
+<rect x="570" y="255" width="45" height="10" rx="3" fill="#3D3C39" opacity="0.6"/>
 <text class="ts" x="592" y="263" text-anchor="middle" fill="white">fiber</text>
 <text class="th" x="592" y="196" text-anchor="middle" fill="#444441">Road +</text>
-<text class="ts" x="592" y="208" text-anchor="middle" fill="#5F5E5A">fiber / SCADA</text>
-<text class="ts" x="592" y="345" text-anchor="middle" fill="#5F5E5A">All-weather</text>
+<text class="ts" x="592" y="208" text-anchor="middle" fill="#3D3C39">fiber / SCADA</text>
+<text class="ts" x="592" y="345" text-anchor="middle" fill="#3D3C39">All-weather</text>
 
 <!-- Ground labels -->
 <text class="ts" x="42" y="238" fill="#888780">surface</text>
@@ -81,8 +81,8 @@
 
 <!-- Shared cost callout -->
 <rect x="160" y="370" width="360" height="36" rx="6" fill="none" stroke="#888780" stroke-width="0.5" stroke-dasharray="4 3"/>
-<text class="ts" x="340" y="385" text-anchor="middle" fill="#5F5E5A">Shared surveying · grading · security · maintenance access</text>
-<text class="ts" x="340" y="400" text-anchor="middle" fill="#5F5E5A">40–60% cost reduction vs. separate construction</text>
+<text class="ts" x="340" y="385" text-anchor="middle" fill="#3D3C39">Shared surveying · grading · security · maintenance access</text>
+<text class="ts" x="340" y="400" text-anchor="middle" fill="#3D3C39">40–60% cost reduction vs. separate construction</text>
 
 <!-- ROW labels -->
 <text class="ts" x="35" y="170" text-anchor="middle" fill="#888780">ROW</text>
