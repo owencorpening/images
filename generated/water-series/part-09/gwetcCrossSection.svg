@@ -31,11 +31,11 @@
 <rect x="40" y="228" width="600" height="140" rx="0" fill="#D3D1C7" opacity="0.5"/>
 
 <!-- ROW boundary markers -->
-<line x1="40" y1="160" x2="40" y2="380" stroke="#888780" stroke-width="0.5" stroke-dasharray="4 3"/>
-<line x1="640" y1="160" x2="640" y2="380" stroke="#888780" stroke-width="0.5" stroke-dasharray="4 3"/>
+<line class="row-border" x1="40" y1="160" x2="40" y2="380" stroke="#888780" stroke-width="0.5" stroke-dasharray="4 3"/>
+<line class="row-border" x1="640" y1="160" x2="640" y2="380" stroke="#888780" stroke-width="0.5" stroke-dasharray="4 3"/>
 
 <!-- ROW dimension line -->
-<line x1="40" y1="155" x2="640" y2="155" stroke="#888780" stroke-width="0.5" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<line class="row-border" x1="40" y1="155" x2="640" y2="155" stroke="#888780" stroke-width="0.5" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
 <text class="ts" x="340" y="148" text-anchor="middle" fill="#3D3C39">330–660 ft (100–200 m) engineered right-of-way</text>
 
 <defs>
@@ -68,17 +68,17 @@
 <text class="ts" x="345" y="345" text-anchor="middle" fill="#3D3C39">Standard gauge</text>
 
 <!-- SYSTEM 4: Power transmission -->
-<line x1="450" y1="220" x2="462" y2="140" stroke="#993C1D" stroke-width="2"/>
-<line x1="500" y1="220" x2="488" y2="140" stroke="#993C1D" stroke-width="2"/>
-<line x1="448" y1="155" x2="502" y2="155" stroke="#993C1D" stroke-width="2"/>
-<line x1="475" y1="155" x2="475" y2="220" stroke="#993C1D" stroke-width="1.5"/>
+<line class="power-line" x1="450" y1="220" x2="462" y2="140" stroke="#993C1D" stroke-width="2"/>
+<line class="power-line" x1="500" y1="220" x2="488" y2="140" stroke="#993C1D" stroke-width="2"/>
+<line class="power-line" x1="448" y1="155" x2="502" y2="155" stroke="#993C1D" stroke-width="2"/>
+<line class="power-line" x1="475" y1="155" x2="475" y2="220" stroke="#993C1D" stroke-width="1.5"/>
 <circle cx="448" cy="157" r="3" fill="#D85A30"/>
 <circle cx="475" cy="142" r="3" fill="#D85A30"/>
 <circle cx="502" cy="157" r="3" fill="#D85A30"/>
-<line x1="40" y1="157" x2="448" y2="157" stroke="#D85A30" stroke-width="0.8" opacity="0.6"/>
-<line x1="502" y1="157" x2="640" y2="157" stroke="#D85A30" stroke-width="0.8" opacity="0.6"/>
-<line x1="40" y1="143" x2="475" y2="142" stroke="#D85A30" stroke-width="0.8" opacity="0.6"/>
-<line x1="475" y1="142" x2="640" y2="142" stroke="#D85A30" stroke-width="0.8" opacity="0.6"/>
+<line class="power-line" x1="40" y1="157" x2="448" y2="157" stroke="#D85A30" stroke-width="0.8" opacity="0.6"/>
+<line class="power-line" x1="502" y1="157" x2="640" y2="157" stroke="#D85A30" stroke-width="0.8" opacity="0.6"/>
+<line class="power-line" x1="40" y1="143" x2="475" y2="142" stroke="#D85A30" stroke-width="0.8" opacity="0.6"/>
+<line class="power-line" x1="475" y1="142" x2="640" y2="142" stroke="#D85A30" stroke-width="0.8" opacity="0.6"/>
 <text class="th" x="475" y="123" text-anchor="middle" fill="#712B13">Power</text>
 <text class="ts" x="475" y="136" text-anchor="middle" fill="#993C1D">500 kV HVDC</text>
 <text class="ts" x="475" y="345" text-anchor="middle" fill="#3D3C39">HVDC tower</text>
