@@ -8,6 +8,17 @@
   .ts { font-size: 12px; font-weight: 400; }
 
   @media (forced-colors: active) {
+    svg {
+      /* Force a system-defined background that resets the contrast */
+      background-color: Canvas !important;
+
+      /* Force a border so you can see the edge of the diagram */
+      outline: 1px solid CanvasText;
+
+      /* Optional: prevent the browser from overriding your specific engineering colors */
+      forced-color-adjust: none;
+    }
+
     /* 1. Force the lines to be thick enough to see */
     svg line, svg path, svg circle {
       stroke: CanvasText !important;
