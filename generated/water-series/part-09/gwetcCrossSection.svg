@@ -6,6 +6,24 @@
   text { font-family: Arial, sans-serif; fill: #2C2C2A; }
   .th { font-size: 14px; font-weight: 600; }
   .ts { font-size: 12px; font-weight: 400; }
+
+  @media (forced-colors: active) {
+    /* 1. Force the lines to be thick enough to see */
+    svg line, svg path, svg circle {
+      stroke: CanvasText !important;
+      stroke-width: 1.5px !important;
+    }
+
+    /* 2. Differentiate systems using patterns since colors are gone */
+    .power-line { stroke-dasharray: 4; }
+    .row-border { stroke-dasharray: 2; stroke-width: 1px; }
+
+    /* 3. Ensure the text labels remain legible */
+    text {
+      fill: CanvasText !important;
+      font-weight: bold;
+    }
+  }
 </style>
 
 <!-- Ground surface -->
