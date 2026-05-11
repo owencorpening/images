@@ -30,19 +30,17 @@
   </marker>
 </defs>
 
-<!-- FLOATING ANNOTATION beside gas pipeline -->
-<rect x="28" y="56" width="308" height="92" rx="4" fill="white" fill-opacity="0.92" stroke="#aaa" stroke-width="0.8" stroke-dasharray="3 2"/>
-<text class="ann" x="38" y="71">GWETC cross-section showing the integrated</text>
-<text class="ann" x="38" y="85">five-system architecture within a 330–660 ft</text>
-<text class="ann" x="38" y="99">(100–200 m) engineered right-of-way.</text>
-<text class="ann" x="38" y="113">All systems share surveying, grading, security,</text>
-<text class="ann" x="38" y="127">and maintenance access.</text>
-<!-- connector from annotation box to gas pipeline -->
-<line x1="182" y1="148" x2="220" y2="270" stroke="#888780" stroke-width="0.7" stroke-dasharray="3 2" opacity="0.5"/>
-
 <!-- Ground surface -->
 <rect x="40" y="220" width="600" height="8" rx="2" fill="#B4B2A9" opacity="0.9"/>
 <rect x="40" y="228" width="600" height="132" rx="0" fill="#D3D1C7" opacity="0.5"/>
+
+<!-- FLOATING ANNOTATION — subgrade, right of gas pipeline -->
+<rect x="256" y="235" width="285" height="88" rx="4" fill="white" fill-opacity="0.92" stroke="#aaa" stroke-width="0.8" stroke-dasharray="3 2"/>
+<text class="ann" x="266" y="250">GWETC cross-section showing the integrated</text>
+<text class="ann" x="266" y="264">five-system architecture within a 330–660 ft</text>
+<text class="ann" x="266" y="278">(100–200 m) engineered right-of-way.</text>
+<text class="ann" x="266" y="292">All systems share surveying, grading, security,</text>
+<text class="ann" x="266" y="306">and maintenance access.</text>
 
 <!-- ROW boundary markers -->
 <line class="row-border" x1="40" y1="160" x2="40" y2="360" stroke="#888780" stroke-width="0.5" stroke-dasharray="4 3"/>
@@ -63,10 +61,10 @@
 <text class="ts" x="110" y="303" text-anchor="middle" fill="#0C447C">main</text>
 
 <!-- SYSTEM 2: Gas pipeline -->
-<ellipse cx="220" cy="300" rx="30" ry="30" fill="#F0C97A" stroke="#854F0B" stroke-width="1.5"/>
-<ellipse cx="220" cy="300" rx="22" ry="22" fill="none" stroke="#854F0B" stroke-width="0.8" opacity="0.5"/>
-<text class="th" x="220" y="297" text-anchor="middle" fill="#633806">Gas</text>
-<text class="ts" x="220" y="313" text-anchor="middle" fill="#633806">pipeline</text>
+<ellipse cx="220" cy="290" rx="30" ry="30" fill="#F0C97A" stroke="#854F0B" stroke-width="1.5"/>
+<ellipse cx="220" cy="290" rx="22" ry="22" fill="none" stroke="#854F0B" stroke-width="0.8" opacity="0.5"/>
+<text class="th" x="220" y="287" text-anchor="middle" fill="#633806">Gas</text>
+<text class="ts" x="220" y="303" text-anchor="middle" fill="#633806">pipeline</text>
 
 <!-- SYSTEM 3: Rail -->
 <rect x="295" y="215" width="100" height="12" rx="2" fill="#5DCAA5" opacity="0.8" stroke="#1D9E75" stroke-width="0.8"/>
