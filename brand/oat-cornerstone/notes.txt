@@ -52,5 +52,4 @@ clearly legible, not faint.
 
 NOTES
 -----
-Tool: image generator (Midjourney or DALL-E 3)
-Midjourney flags: --ar 1:1 --style raw --v 6.1
+Tool: ChatGPT GPT-4o image generation
