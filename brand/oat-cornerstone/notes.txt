@@ -1,0 +1,56 @@
+OAT Cornerstone — Brand Asset Notes
+=====================================
+
+FILES
+-----
+cornerstone.png        — perspective view, etched corner of granite building
+frontCornerstone.png   — brass plaque straight-on view
+
+
+GENERATION PROMPTS
+------------------
+
+Prompt (cornerstone.png — perspective view):
+i need a graphic: as though it were etched into the corner of a
+granite building, the text "O A T"
+
+Prompt (frontCornerstone.png — brass plaque straight-on):
+Sequence of three prompts applied in order:
+
+1. Photorealistic polished gray granite block, straight-on view,
+flat face filling the frame. No perspective distortion.
+Raking light from upper left casting shadows into carved cuts.
+Three lines of deeply incised V-cut lettering centered on the face:
+Line 1: Large Roman capital letters O A T — widely spaced,
+approximately 60% of block height. The A has an engineering
+stencil quality — clean apex, no serifs on the A only.
+O and T are classical Roman.
+Thin horizontal ruled line incised into stone below the letters.
+Line 2: OWEN'S APPLIED THINKING — spaced serif capitals,
+much smaller than OAT, centered, letter-spaced wide.
+Thin horizontal ruled line.
+Line 3: EST. MMXXV — centered, smaller than line 2,
+widely letter-spaced.
+Stone: light gray granite, fine crystalline texture,
+subtle polish sheen upper left.
+Carving: deep V-cuts, upper-left edges bright from raking light,
+lower-right edges in shadow.
+No background. Stone face fills frame.
+Architectural monument quality. Photorealistic.
+
+2. Same granite cornerstone, straight-on view. The incised letters
+O A T are filled with polished cast brass inlay, flush with the
+stone surface. Brass color warm gold #B8860B, polished, reflecting
+raking light from upper left. OWEN'S APPLIED THINKING and EST. MMXXV
+remain granite-only incised, no brass fill. The contrast between
+gray granite and warm polished brass is the dominant visual.
+Photorealistic, architectural monument quality.
+
+3. EST. MMXXV deeply incised, same depth as main letters,
+clearly legible, not faint.
+
+
+NOTES
+-----
+Tool: image generator (Midjourney or DALL-E 3)
+Midjourney flags: --ar 1:1 --style raw --v 6.1
