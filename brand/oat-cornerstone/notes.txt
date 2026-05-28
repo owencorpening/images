@@ -5,6 +5,7 @@ FILES
 -----
 cornerstone.png        — perspective view, etched corner of granite building
 frontCornerstone.png   — brass plaque straight-on view
+oatLogoGraniteGold.png — gold letterpress OAT on granite, "Owen's Applied Thinking / Est. MMXXV", landscape 600×400
 
 
 GENERATION PROMPTS
