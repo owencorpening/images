@@ -1,0 +1,80 @@
+<svg width="100%" viewBox="0 0 680 440" role="img" xmlns="http://www.w3.org/2000/svg">
+<title>Ribosome translation</title>
+<desc>The ribosome moves right along a fixed mRNA strand reading one codon at a time. A growing protein chain trails left. tRNA delivers amino acids from above.</desc>
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </marker>
+  <style>
+    text { font-family: sans-serif; fill: #222; }
+    .t  { font-size: 14px; font-weight: 400; }
+    .ts { font-size: 12px; font-weight: 400; }
+    .th { font-size: 14px; font-weight: 500; }
+    .c-teal   rect, .c-teal   circle { fill: #9FE1CB; stroke: #0F6E56; }
+    .c-teal   text { fill: #04342C; }
+    .c-blue   rect, .c-blue   circle { fill: #B5D4F4; stroke: #185FA5; }
+    .c-blue   text { fill: #042C53; }
+    .c-amber  rect, .c-amber  circle { fill: #FAC775; stroke: #BA7517; }
+    .c-amber  text { fill: #412402; }
+    .c-red    rect, .c-red    circle { fill: #F7C1C1; stroke: #A32D2D; }
+    .c-red    text { fill: #501313; }
+    .c-purple rect, .c-purple circle, .c-purple ellipse { fill: #AFA9EC; stroke: #534AB7; }
+    .c-purple text { fill: #26215C; }
+    .c-gray   rect, .c-gray   ellipse { fill: #D3D1C7; stroke: #5F5E5A; }
+    .c-gray   text { fill: #2C2C2A; }
+    .c-coral  rect { fill: #F0997B; stroke: #993C1D; }
+    .c-coral  text { fill: #4A1B0C; }
+  </style>
+</defs>
+
+<text class="ts" x="330" y="22" text-anchor="middle">The ribosome moves right along the mRNA. The protein chain trails behind.</text>
+
+<line x1="50" y1="285" x2="625" y2="285" stroke="#888" stroke-width="2.5" stroke-linecap="round"/>
+<text class="ts" x="44" y="285" text-anchor="end" dominant-baseline="central">5'</text>
+<text class="ts" x="631" y="285" text-anchor="start" dominant-baseline="central">3'</text>
+
+<g class="c-teal"><rect x="52"  y="274" width="36" height="22" rx="3" stroke-width="0.8"/><text class="ts" x="70"  y="285" text-anchor="middle" dominant-baseline="central">GCU</text></g>
+<g class="c-teal"><rect x="92"  y="274" width="36" height="22" rx="3" stroke-width="0.8"/><text class="ts" x="110" y="285" text-anchor="middle" dominant-baseline="central">CCG</text></g>
+<g class="c-teal"><rect x="132" y="274" width="36" height="22" rx="3" stroke-width="0.8"/><text class="ts" x="150" y="285" text-anchor="middle" dominant-baseline="central">UAC</text></g>
+<g class="c-teal"><rect x="172" y="274" width="36" height="22" rx="3" stroke-width="0.8"/><text class="ts" x="190" y="285" text-anchor="middle" dominant-baseline="central">GAA</text></g>
+
+<g class="c-blue"><rect x="392" y="274" width="36" height="22" rx="3" stroke-width="0.8"/><text class="ts" x="410" y="285" text-anchor="middle" dominant-baseline="central">CGA</text></g>
+<g class="c-blue"><rect x="432" y="274" width="36" height="22" rx="3" stroke-width="0.8"/><text class="ts" x="450" y="285" text-anchor="middle" dominant-baseline="central">UUA</text></g>
+<g class="c-blue"><rect x="472" y="274" width="36" height="22" rx="3" stroke-width="0.8"/><text class="ts" x="490" y="285" text-anchor="middle" dominant-baseline="central">GGC</text></g>
+<g class="c-blue"><rect x="512" y="274" width="36" height="22" rx="3" stroke-width="0.8"/><text class="ts" x="530" y="285" text-anchor="middle" dominant-baseline="central">ACU</text></g>
+<g class="c-blue"><rect x="552" y="274" width="36" height="22" rx="3" stroke-width="0.8"/><text class="ts" x="570" y="285" text-anchor="middle" dominant-baseline="central">UGG</text></g>
+<g class="c-red"><rect x="592" y="274" width="36" height="22" rx="3" stroke-width="0.8"/><text class="ts" x="610" y="285" text-anchor="middle" dominant-baseline="central">stop</text></g>
+
+<g class="c-purple"><ellipse cx="320" cy="210" rx="112" ry="56" stroke-width="1"/><text class="th" x="320" y="202" text-anchor="middle" dominant-baseline="central">ribosome</text><text class="ts" x="320" y="220" text-anchor="middle" dominant-baseline="central">reads one codon, adds one amino acid</text></g>
+<g class="c-gray"><ellipse cx="320" cy="274" rx="90" ry="24" stroke-width="1"/><text class="ts" x="380" y="274" text-anchor="middle" dominant-baseline="central">grips mRNA</text></g>
+<g class="c-amber"><rect x="299" y="274" width="42" height="22" rx="3" stroke-width="2"/><text class="th" x="320" y="285" text-anchor="middle" dominant-baseline="central">AUG</text></g>
+
+<line x1="262" y1="326" x2="372" y2="326" stroke="#888" stroke-width="1.5" marker-end="url(#arrow)"/>
+<text class="ts" x="317" y="342" text-anchor="middle">ribosome moves this way</text>
+
+<g class="c-gray"><rect x="207" y="118" width="22" height="26" rx="4" stroke-width="1"/><rect x="211" y="144" width="14" height="8" rx="2" stroke-width="0.8"/><text class="ts" x="218" y="131" text-anchor="middle" dominant-baseline="central">tRNA</text></g>
+<text class="ts" x="218" y="104" text-anchor="middle">exits empty</text>
+
+<g class="c-coral"><rect x="309" y="118" width="22" height="26" rx="4" stroke-width="1"/><rect x="313" y="144" width="14" height="8" rx="2" stroke-width="0.8"/><text class="th" x="320" y="131" text-anchor="middle" dominant-baseline="central">tRNA</text></g>
+<g class="c-amber"><circle cx="320" cy="96" r="16" stroke-width="1"/><text class="ts" x="320" y="96" text-anchor="middle" dominant-baseline="central">Met</text></g>
+
+<line x1="208" y1="200" x2="196" y2="200" stroke="#534AB7" stroke-width="2"/>
+<g class="c-purple"><circle cx="180" cy="200" r="15" stroke-width="1"/><text class="ts" x="180" y="200" text-anchor="middle" dominant-baseline="central">Glu</text></g>
+<line x1="165" y1="200" x2="153" y2="194" stroke="#534AB7" stroke-width="2"/>
+<g class="c-purple"><circle cx="138" cy="186" r="15" stroke-width="1"/><text class="ts" x="138" y="186" text-anchor="middle" dominant-baseline="central">Tyr</text></g>
+<line x1="123" y1="180" x2="111" y2="172" stroke="#534AB7" stroke-width="2"/>
+<g class="c-purple"><circle cx="96" cy="162" r="15" stroke-width="1"/><text class="ts" x="96" y="162" text-anchor="middle" dominant-baseline="central">Pro</text></g>
+<line x1="81" y1="156" x2="69" y2="148" stroke="#534AB7" stroke-width="2"/>
+<g class="c-purple" opacity="0.45"><circle cx="56" cy="138" r="13" stroke-width="0.8"/><text class="ts" x="56" y="138" text-anchor="middle" dominant-baseline="central">Ala</text></g>
+<text class="ts" x="50" y="112" text-anchor="middle">growing</text>
+<text class="ts" x="50" y="124" text-anchor="middle">protein</text>
+
+<g class="c-amber"><rect x="40"  y="376" width="14" height="14" rx="2" stroke-width="1.5"/></g>
+<text class="ts" x="60"  y="386">codon being read now</text>
+<g class="c-teal"><rect x="210" y="376" width="14" height="14" rx="2" stroke-width="0.8"/></g>
+<text class="ts" x="230" y="386">already read</text>
+<g class="c-blue"><rect x="350" y="376" width="14" height="14" rx="2" stroke-width="0.8"/></g>
+<text class="ts" x="370" y="386">not yet read</text>
+<g class="c-red"><rect x="490" y="376" width="14" height="14" rx="2" stroke-width="0.8"/></g>
+<text class="ts" x="510" y="386">stop codon</text>
+</svg>
