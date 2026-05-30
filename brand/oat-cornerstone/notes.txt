@@ -7,6 +7,7 @@ cornerstone.png        — perspective view, etched corner of granite building
 frontCornerstone.png   — brass plaque straight-on view
 oatLogoGraniteGold.png    — gold letterpress OAT on granite, "Owen's Applied Thinking / Est. MMXXV", landscape 600×400
 oatCornerstoneBuilding.png — photorealistic architectural: OAT gold-inlaid in granite building cornerstone, outdoor setting, natural light
+cornerstoneWide.png        — wide landscape: OAT gold letters on granite building cornerstone, bold architectural, steps and columns visible
 
 
 GENERATION PROMPTS
