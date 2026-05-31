@@ -1,0 +1,51 @@
+<svg width="100%" viewBox="0 0 680 520" role="img" xmlns="http://www.w3.org/2000/svg">
+<title>Humulin — human gene, bacterial factory</title>
+<desc>Four-step flowchart showing how the human insulin gene is extracted, inserted into E. coli via plasmid, fermented, and harvested as Humulin insulin</desc>
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
+<style>
+.th{font-family:sans-serif;font-size:14px;font-weight:500;fill:#1a1a1a}
+.ts{font-family:sans-serif;font-size:12px;font-weight:500;fill:#111}
+@media(prefers-color-scheme:dark){.th{fill:#e8e6e0}.ts{fill:#9c9a92}}
+</style>
+</defs>
+
+<text class="th" x="340" y="28" text-anchor="middle" font-size="16">Humulin: human gene, bacterial factory</text>
+<text class="ts" x="340" y="48" text-anchor="middle">The code is universal — E. coli reads the human insulin gene the same way a human cell would</text>
+
+<rect x="60" y="68" width="560" height="80" rx="8" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+<circle cx="96" cy="108" r="16" fill="#185FA5"/>
+<text x="96" y="113" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="500" fill="white">1</text>
+<text class="th" x="340" y="97" text-anchor="middle">Human genome</text>
+<text class="ts" x="340" y="116" text-anchor="middle">The insulin gene lives on chromosome 11 among 3 billion base pairs.</text>
+<text class="ts" x="340" y="132" text-anchor="middle">Scientists locate and copy the sequence encoding human insulin.</text>
+
+<line x1="340" y1="148" x2="340" y2="170" stroke="#888" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+<rect x="60" y="172" width="560" height="80" rx="8" fill="#FAEEDA" stroke="#BA7517" stroke-width="0.5"/>
+<circle cx="96" cy="212" r="16" fill="#BA7517"/>
+<text x="96" y="217" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="500" fill="white">2</text>
+<text class="th" x="340" y="201" text-anchor="middle">Plasmid insertion</text>
+<text class="ts" x="340" y="220" text-anchor="middle">The insulin DNA sequence is inserted into a small circular piece of bacterial DNA —</text>
+<text class="ts" x="340" y="236" text-anchor="middle">a plasmid — that E. coli can take up and replicate.</text>
+
+<line x1="340" y1="252" x2="340" y2="274" stroke="#888" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+<rect x="60" y="276" width="560" height="80" rx="8" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.5"/>
+<circle cx="96" cy="316" r="16" fill="#0F6E56"/>
+<text x="96" y="321" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="500" fill="white">3</text>
+<text class="th" x="340" y="305" text-anchor="middle">Fermentation</text>
+<text class="ts" x="340" y="324" text-anchor="middle">E. coli carrying the plasmid grow in large fermentation tanks.</text>
+<text class="ts" x="340" y="340" text-anchor="middle">Each bacterium reads the human insulin gene and produces insulin protein.</text>
+
+<line x1="340" y1="356" x2="340" y2="378" stroke="#888" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+<rect x="60" y="380" width="560" height="88" rx="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.5"/>
+<circle cx="96" cy="424" r="16" fill="#534AB7"/>
+<text x="96" y="429" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="500" fill="white">4</text>
+<text class="th" x="340" y="409" text-anchor="middle">Human insulin — Humulin</text>
+<text class="ts" x="340" y="428" text-anchor="middle">Protein is harvested, purified, and bottled. Identical to pancreas-produced insulin.</text>
+<text class="ts" x="340" y="444" text-anchor="middle">Bacteria making human insulin — approved by the FDA in 1982. It worked.</text>
+
+<text class="ts" x="340" y="494" text-anchor="middle" font-style="italic">The source of the instructions is irrelevant to the machine.</text>
+</svg>
