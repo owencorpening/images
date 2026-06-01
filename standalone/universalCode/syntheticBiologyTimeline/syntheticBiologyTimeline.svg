@@ -1,89 +1,117 @@
-<svg width="100%" viewBox="0 0 680 920" role="img" xmlns="http://www.w3.org/2000/svg">
+<svg width="760" height="920" viewBox="0 0 760 920" preserveAspectRatio="xMidYMid meet" role="img" xmlns="http://www.w3.org/2000/svg">
 <title>Timeline of synthetic protein milestones, 1953 to present</title>
-<desc>A vertical thermometer-style timeline showing key milestones in genetic code discovery and synthetic biology from 1953 to 2020s</desc>
+<desc>A high-contrast publisher-ready vertical timeline showing key milestones in genetic code discovery and synthetic biology, with Humulin highlighted in brass gold.</desc>
+<rect width="760" height="920" fill="#0B1020"/>
 <defs>
+  <filter id="softGlow" x="-80%" y="-80%" width="260%" height="260%">
+    <feGaussianBlur stdDeviation="4" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="goldGlow" x="-100%" y="-100%" width="300%" height="300%">
+    <feGaussianBlur stdDeviation="6" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
   <style>
-    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
-    .year { font-size: 14px; font-weight: 500; fill: #1c1c1a; }
-    .desc { font-size: 12px; fill: #1c1c1a; opacity: 0.7; }
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; }
+    .year { font-size: 22px; font-weight: 850; fill: #FFFFFF; letter-spacing: 0.25px; }
+    .desc { font-size: 16px; font-weight: 600; fill: #EEF3FF; opacity: 0.98; }
+    .legend { font-size: 14px; font-weight: 700; fill: #F3F6FF; }
+    .goldYear { font-size: 24px; font-weight: 900; fill: #FFD36A; letter-spacing: 0.25px; }
+    .goldDesc { font-size: 17px; font-weight: 850; fill: #FFE7A3; }
+    .guide { stroke: #FFFFFF; stroke-width: 1.2; opacity: 0.13; }
   </style>
 </defs>
 
-<!-- Thermometer stem — centered -->
-<rect x="250" y="30" width="16" height="840" rx="8" fill="none" stroke="rgba(0,0,0,0.15)" stroke-width="0.5"/>
+<!-- Background accent -->
+<circle cx="278" cy="40" r="56" fill="#00E6A8" opacity="0.07"/>
+<circle cx="278" cy="430" r="34" fill="#B8860B" opacity="0.10"/>
+<circle cx="278" cy="790" r="32" fill="#B8860B" opacity="0.08"/>
 
-<!-- Thermometer fill — teal rising up -->
-<rect x="252" y="30" width="12" height="840" rx="6" fill="#1D9E75" opacity="0.18"/>
+<!-- Timeline stem -->
+<rect x="270" y="34" width="16" height="834" rx="8" fill="none" stroke="#A9B9D6" opacity="0.28" stroke-width="1"/>
+<rect x="272" y="34" width="12" height="834" rx="6" fill="#00E6A8" opacity="0.25"/>
 
 <!-- Bulb at bottom -->
-<circle cx="258" cy="876" r="22" fill="#085041" stroke="#5dca5d" stroke-width="0.5"/>
-<text x="258" y="880" text-anchor="middle" class="year" style="text-anchor:middle;">DNA</text>
+<circle cx="278" cy="876" r="24" fill="#0B6B55" stroke="#00E6A8" stroke-width="1.4" filter="url(#softGlow)"/>
+<text x="278" y="881" text-anchor="middle" style="font-size:13px;font-weight:850;fill:#B7FFE9;">DNA</text>
+
+<!-- Legend -->
+<rect x="52" y="31" width="12" height="12" rx="3" fill="#00A86B" stroke="#7CFFCF" stroke-width="0.9"/>
+<text x="72" y="41" dominant-baseline="central" class="legend">Discovery</text>
+<rect x="52" y="55" width="12" height="12" rx="3" fill="#6157E8" stroke="#C8C4FF" stroke-width="0.9"/>
+<text x="72" y="65" dominant-baseline="central" class="legend">First synthesis</text>
+<rect x="52" y="79" width="12" height="12" rx="3" fill="#C6512A" stroke="#FFB39B" stroke-width="0.9"/>
+<text x="72" y="89" dominant-baseline="central" class="legend">Industrial scale</text>
+<rect x="52" y="103" width="12" height="12" rx="3" fill="#B8860B" stroke="#FFD36A" stroke-width="0.9"/>
+<text x="72" y="113" dominant-baseline="central" class="legend">Watershed moment</text>
 
 <!-- 1953 -->
-<circle cx="258" cy="60" r="7" fill="#085041" stroke="#5dca5d" stroke-width="0.5"/>
-<text x="286" y="55" dominant-baseline="central" class="year">1953</text>
-<text x="286" y="72" dominant-baseline="central" class="desc">Watson &amp; Crick — double helix structure</text>
+<line x1="290" y1="60" x2="730" y2="60" class="guide"/>
+<circle cx="278" cy="60" r="8.5" fill="#00A86B" stroke="#7CFFCF" stroke-width="1.1" filter="url(#softGlow)"/>
+<text x="314" y="54" dominant-baseline="central" class="year">1953</text>
+<text x="314" y="79" dominant-baseline="central" class="desc">Watson &amp; Crick — double helix structure</text>
 
 <!-- 1961 -->
-<circle cx="258" cy="140" r="7" fill="#085041" stroke="#5dca5d" stroke-width="0.5"/>
-<text x="286" y="135" dominant-baseline="central" class="year">1961</text>
-<text x="286" y="152" dominant-baseline="central" class="desc">Genetic code cracked — codons identified</text>
+<line x1="290" y1="140" x2="730" y2="140" class="guide"/>
+<circle cx="278" cy="140" r="8.5" fill="#00A86B" stroke="#7CFFCF" stroke-width="1.1" filter="url(#softGlow)"/>
+<text x="314" y="134" dominant-baseline="central" class="year">1961</text>
+<text x="314" y="159" dominant-baseline="central" class="desc">Genetic code cracked — codons identified</text>
 
 <!-- 1966 -->
-<circle cx="258" cy="210" r="7" fill="#085041" stroke="#5dca5d" stroke-width="0.5"/>
-<text x="286" y="205" dominant-baseline="central" class="year">1966</text>
-<text x="286" y="222" dominant-baseline="central" class="desc">All 64 codons mapped to amino acids</text>
+<line x1="290" y1="210" x2="730" y2="210" class="guide"/>
+<circle cx="278" cy="210" r="8.5" fill="#00A86B" stroke="#7CFFCF" stroke-width="1.1" filter="url(#softGlow)"/>
+<text x="314" y="204" dominant-baseline="central" class="year">1966</text>
+<text x="314" y="229" dominant-baseline="central" class="desc">All 64 codons mapped to amino acids</text>
 
 <!-- 1973 -->
-<circle cx="258" cy="290" r="7" fill="#3c3489" stroke="#afa9ec" stroke-width="0.5"/>
-<text x="286" y="285" dominant-baseline="central" class="year">1973</text>
-<text x="286" y="302" dominant-baseline="central" class="desc">Recombinant DNA — Cohen &amp; Boyer splice genes</text>
+<line x1="290" y1="290" x2="730" y2="290" class="guide"/>
+<circle cx="278" cy="290" r="8.5" fill="#6157E8" stroke="#C8C4FF" stroke-width="1.1" filter="url(#softGlow)"/>
+<text x="314" y="284" dominant-baseline="central" class="year">1973</text>
+<text x="314" y="309" dominant-baseline="central" class="desc">Recombinant DNA — Cohen &amp; Boyer splice genes</text>
 
 <!-- 1978 -->
-<circle cx="258" cy="360" r="7" fill="#3c3489" stroke="#afa9ec" stroke-width="0.5"/>
-<text x="286" y="355" dominant-baseline="central" class="year">1978</text>
-<text x="286" y="372" dominant-baseline="central" class="desc">Human insulin gene cloned into E. coli</text>
+<line x1="290" y1="360" x2="730" y2="360" class="guide"/>
+<circle cx="278" cy="360" r="8.5" fill="#6157E8" stroke="#C8C4FF" stroke-width="1.1" filter="url(#softGlow)"/>
+<text x="314" y="354" dominant-baseline="central" class="year">1978</text>
+<text x="314" y="379" dominant-baseline="central" class="desc">Human insulin gene cloned into E. coli</text>
 
-<!-- 1982 -->
-<circle cx="258" cy="430" r="10" fill="#633806" stroke="#efa727" stroke-width="0.5"/>
-<text x="286" y="422" dominant-baseline="central" class="year">1982</text>
-<text x="286" y="440" dominant-baseline="central" class="year">Humulin approved — first synthetic human protein</text>
+<!-- 1982 watershed -->
+<line x1="290" y1="430" x2="730" y2="430" stroke="#FFD36A" stroke-width="1.5" opacity="0.30"/>
+<circle cx="278" cy="430" r="14" fill="#B8860B" stroke="#FFD36A" stroke-width="1.7" filter="url(#goldGlow)"/>
+<circle cx="278" cy="430" r="21" fill="none" stroke="#FFD36A" stroke-width="1" opacity="0.22"/>
+<text x="314" y="418" dominant-baseline="central" class="goldYear">1982</text>
+<text x="314" y="446" dominant-baseline="central" class="goldDesc">Humulin approved</text>
+<text x="314" y="469" dominant-baseline="central" class="goldDesc">first synthetic human protein</text>
 
 <!-- 1986 -->
-<circle cx="258" cy="510" r="7" fill="#3c3489" stroke="#afa9ec" stroke-width="0.5"/>
-<text x="286" y="505" dominant-baseline="central" class="year">1986</text>
-<text x="286" y="522" dominant-baseline="central" class="desc">Recombinant Hepatitis B vaccine approved</text>
+<line x1="290" y1="510" x2="730" y2="510" class="guide"/>
+<circle cx="278" cy="510" r="8.5" fill="#6157E8" stroke="#C8C4FF" stroke-width="1.1" filter="url(#softGlow)"/>
+<text x="314" y="504" dominant-baseline="central" class="year">1986</text>
+<text x="314" y="529" dominant-baseline="central" class="desc">Recombinant Hepatitis B vaccine approved</text>
 
 <!-- 1990s -->
-<circle cx="258" cy="580" r="7" fill="#3c3489" stroke="#afa9ec" stroke-width="0.5"/>
-<text x="286" y="575" dominant-baseline="central" class="year">1990s</text>
-<text x="286" y="592" dominant-baseline="central" class="desc">EPO, Factor VIII, tPA, interferons in production</text>
+<line x1="290" y1="580" x2="730" y2="580" class="guide"/>
+<circle cx="278" cy="580" r="8.5" fill="#6157E8" stroke="#C8C4FF" stroke-width="1.1" filter="url(#softGlow)"/>
+<text x="314" y="574" dominant-baseline="central" class="year">1990s</text>
+<text x="314" y="599" dominant-baseline="central" class="desc">EPO, Factor VIII, tPA, interferons in production</text>
 
 <!-- 2000s -->
-<circle cx="258" cy="650" r="7" fill="#712b13" stroke="#f0997b" stroke-width="0.5"/>
-<text x="286" y="645" dominant-baseline="central" class="year">2000s</text>
-<text x="286" y="662" dominant-baseline="central" class="desc">Monoclonal antibody era — Humira, Herceptin, Rituxan</text>
+<line x1="290" y1="650" x2="730" y2="650" class="guide"/>
+<circle cx="278" cy="650" r="8.5" fill="#C6512A" stroke="#FFB39B" stroke-width="1.1" filter="url(#softGlow)"/>
+<text x="314" y="639" dominant-baseline="central" class="year">2000s</text>
+<text x="314" y="664" dominant-baseline="central" class="desc">Monoclonal antibody era</text>
+<text x="314" y="685" dominant-baseline="central" class="desc">Humira, Herceptin, Rituxan</text>
 
 <!-- 2010s -->
-<circle cx="258" cy="720" r="7" fill="#712b13" stroke="#f0997b" stroke-width="0.5"/>
-<text x="286" y="715" dominant-baseline="central" class="year">2010s</text>
-<text x="286" y="732" dominant-baseline="central" class="desc">CRISPR — programmable gene editing</text>
+<line x1="290" y1="720" x2="730" y2="720" class="guide"/>
+<circle cx="278" cy="720" r="8.5" fill="#C6512A" stroke="#FFB39B" stroke-width="1.1" filter="url(#softGlow)"/>
+<text x="314" y="714" dominant-baseline="central" class="year">2010s</text>
+<text x="314" y="739" dominant-baseline="central" class="desc">CRISPR — programmable gene editing</text>
 
-<!-- 2021 -->
-<circle cx="258" cy="790" r="10" fill="#633806" stroke="#efa727" stroke-width="0.5"/>
-<text x="286" y="782" dominant-baseline="central" class="year">2021</text>
-<text x="286" y="800" dominant-baseline="central" class="year">mRNA vaccines — delivering the instruction, not the protein</text>
-
-<!-- Legend — left side -->
-<rect x="40" y="30" width="10" height="10" rx="2" fill="#085041" stroke="#5dca5d" stroke-width="0.5"/>
-<text x="56" y="40" dominant-baseline="central" class="desc">Discovery</text>
-
-<rect x="40" y="48" width="10" height="10" rx="2" fill="#3c3489" stroke="#afa9ec" stroke-width="0.5"/>
-<text x="56" y="58" dominant-baseline="central" class="desc">First synthesis</text>
-
-<rect x="40" y="66" width="10" height="10" rx="2" fill="#712b13" stroke="#f0997b" stroke-width="0.5"/>
-<text x="56" y="76" dominant-baseline="central" class="desc">Industrial scale</text>
-
-<rect x="40" y="84" width="10" height="10" rx="2" fill="#633806" stroke="#efa727" stroke-width="0.5"/>
-<text x="56" y="94" dominant-baseline="central" class="desc">Watershed moment</text>
+<!-- 2021 watershed -->
+<line x1="290" y1="790" x2="730" y2="790" stroke="#FFD36A" stroke-width="1.5" opacity="0.25"/>
+<circle cx="278" cy="790" r="13" fill="#B8860B" stroke="#FFD36A" stroke-width="1.5" filter="url(#goldGlow)"/>
+<text x="314" y="779" dominant-baseline="central" class="goldYear">2021</text>
+<text x="314" y="807" dominant-baseline="central" class="goldDesc">mRNA vaccines</text>
+<text x="314" y="830" dominant-baseline="central" class="goldDesc">delivering the instruction, not the protein</text>
 </svg>
