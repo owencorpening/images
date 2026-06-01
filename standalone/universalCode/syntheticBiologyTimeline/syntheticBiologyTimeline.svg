@@ -1,91 +1,89 @@
-<svg width="100%" viewBox="0 0 680 920" role="img" style="" xmlns="http://www.w3.org/2000/svg">
-<title style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">Timeline of synthetic protein milestones, 1953 to present</title>
-<desc style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">A vertical thermometer-style timeline showing key milestones in genetic code discovery and synthetic biology from 1953 to 2020s</desc>
+<svg width="100%" viewBox="0 0 680 920" role="img" xmlns="http://www.w3.org/2000/svg">
+<title>Timeline of synthetic protein milestones, 1953 to present</title>
+<desc>A vertical thermometer-style timeline showing key milestones in genetic code discovery and synthetic biology from 1953 to 2020s</desc>
 <defs>
-  <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
-    <path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-  </marker>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .year { font-size: 14px; font-weight: 500; fill: #1c1c1a; }
+    .desc { font-size: 12px; fill: #1c1c1a; opacity: 0.7; }
+  </style>
 </defs>
 
 <!-- Thermometer stem -->
-<rect x="96" y="30" width="16" height="840" rx="8" stroke-width="0.5" style="fill:none;stroke:rgba(0,0,0,0.15);color:rgb(255, 255, 255);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<rect x="96" y="30" width="16" height="840" rx="8" fill="none" stroke="rgba(0,0,0,0.15)" stroke-width="0.5"/>
 
 <!-- Thermometer fill — teal rising up -->
-<rect x="98" y="30" width="12" height="840" rx="6" fill="#1D9E75" opacity="0.18" style="fill:rgb(29, 158, 117);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.18;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<rect x="98" y="30" width="12" height="840" rx="6" fill="#1D9E75" opacity="0.18"/>
 
 <!-- Bulb at bottom -->
-<circle cx="104" cy="876" r="22" stroke-width="0.5" style="fill:rgb(8, 80, 65);stroke:rgb(93, 202, 165);color:rgb(255, 255, 255);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<text x="104" y="880" text-anchor="middle" style="fill:rgb(28,28,26);opacity:0.7;stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:auto">DNA</text>
-
-<!-- Milestone dots and labels -->
+<circle cx="104" cy="876" r="22" fill="#085041" stroke="#5dca5d" stroke-width="0.5"/>
+<text x="104" y="880" text-anchor="middle" class="year" style="text-anchor:middle;">DNA</text>
 
 <!-- 1953 -->
-<circle cx="104" cy="60" r="7" stroke-width="0.5" style="fill:rgb(8, 80, 65);stroke:rgb(93, 202, 165);color:rgb(255, 255, 255);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<text x="132" y="55" dominant-baseline="central" style="fill:rgb(28,28,26);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:14px;font-weight:500;text-anchor:start;dominant-baseline:central">1953</text>
-<text x="132" y="72" dominant-baseline="central" style="fill:rgb(28,28,26);opacity:0.7;stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:central">Watson &amp; Crick — double helix structure</text>
+<circle cx="104" cy="60" r="7" fill="#085041" stroke="#5dca5d" stroke-width="0.5"/>
+<text x="132" y="55" dominant-baseline="central" class="year">1953</text>
+<text x="132" y="72" dominant-baseline="central" class="desc">Watson &amp; Crick — double helix structure</text>
 
 <!-- 1961 -->
-<circle cx="104" cy="140" r="7" stroke-width="0.5" style="fill:rgb(8, 80, 65);stroke:rgb(93, 202, 165);color:rgb(255, 255, 255);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<text x="132" y="135" dominant-baseline="central" style="fill:rgb(28,28,26);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:14px;font-weight:500;text-anchor:start;dominant-baseline:central">1961</text>
-<text x="132" y="152" dominant-baseline="central" style="fill:rgb(28,28,26);opacity:0.7;stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:central">Genetic code cracked — codons identified</text>
+<circle cx="104" cy="140" r="7" fill="#085041" stroke="#5dca5d" stroke-width="0.5"/>
+<text x="132" y="135" dominant-baseline="central" class="year">1961</text>
+<text x="132" y="152" dominant-baseline="central" class="desc">Genetic code cracked — codons identified</text>
 
 <!-- 1966 -->
-<circle cx="104" cy="210" r="7" stroke-width="0.5" style="fill:rgb(8, 80, 65);stroke:rgb(93, 202, 165);color:rgb(255, 255, 255);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<text x="132" y="205" dominant-baseline="central" style="fill:rgb(28,28,26);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:14px;font-weight:500;text-anchor:start;dominant-baseline:central">1966</text>
-<text x="132" y="222" dominant-baseline="central" style="fill:rgb(28,28,26);opacity:0.7;stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:central">All 64 codons mapped to amino acids</text>
+<circle cx="104" cy="210" r="7" fill="#085041" stroke="#5dca5d" stroke-width="0.5"/>
+<text x="132" y="205" dominant-baseline="central" class="year">1966</text>
+<text x="132" y="222" dominant-baseline="central" class="desc">All 64 codons mapped to amino acids</text>
 
 <!-- 1973 -->
-<circle cx="104" cy="290" r="7" stroke-width="0.5" style="fill:rgb(60, 52, 137);stroke:rgb(175, 169, 236);color:rgb(255, 255, 255);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<text x="132" y="285" dominant-baseline="central" style="fill:rgb(28,28,26);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:14px;font-weight:500;text-anchor:start;dominant-baseline:central">1973</text>
-<text x="132" y="302" dominant-baseline="central" style="fill:rgb(28,28,26);opacity:0.7;stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:central">Recombinant DNA — Cohen &amp; Boyer splice genes</text>
+<circle cx="104" cy="290" r="7" fill="#3c3489" stroke="#afa9ec" stroke-width="0.5"/>
+<text x="132" y="285" dominant-baseline="central" class="year">1973</text>
+<text x="132" y="302" dominant-baseline="central" class="desc">Recombinant DNA — Cohen &amp; Boyer splice genes</text>
 
 <!-- 1978 -->
-<circle cx="104" cy="360" r="7" stroke-width="0.5" style="fill:rgb(60, 52, 137);stroke:rgb(175, 169, 236);color:rgb(255, 255, 255);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<text x="132" y="355" dominant-baseline="central" style="fill:rgb(28,28,26);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:14px;font-weight:500;text-anchor:start;dominant-baseline:central">1978</text>
-<text x="132" y="372" dominant-baseline="central" style="fill:rgb(28,28,26);opacity:0.7;stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:central">Human insulin gene cloned into E. coli</text>
+<circle cx="104" cy="360" r="7" fill="#3c3489" stroke="#afa9ec" stroke-width="0.5"/>
+<text x="132" y="355" dominant-baseline="central" class="year">1978</text>
+<text x="132" y="372" dominant-baseline="central" class="desc">Human insulin gene cloned into E. coli</text>
 
 <!-- 1982 -->
-<g onclick="sendPrompt('Tell me more about Humulin and the first synthetic protein')" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">
-<circle cx="104" cy="430" r="10" stroke-width="0.5" style="fill:rgb(99, 56, 6);stroke:rgb(239, 159, 39);color:rgb(255, 255, 255);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<text x="132" y="422" dominant-baseline="central" style="fill:rgb(28,28,26);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:14px;font-weight:500;text-anchor:start;dominant-baseline:central">1982</text>
-<text x="132" y="440" dominant-baseline="central" style="fill:rgb(28,28,26);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:14px;font-weight:500;text-anchor:start;dominant-baseline:central">Humulin approved — first synthetic human protein</text>
-</g>
+<circle cx="104" cy="430" r="10" fill="#633806" stroke="#efa727" stroke-width="0.5"/>
+<text x="132" y="422" dominant-baseline="central" class="year">1982</text>
+<text x="132" y="440" dominant-baseline="central" class="year">Humulin approved — first synthetic human protein</text>
 
 <!-- 1986 -->
-<circle cx="104" cy="510" r="7" stroke-width="0.5" style="fill:rgb(60, 52, 137);stroke:rgb(175, 169, 236);color:rgb(255, 255, 255);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<text x="132" y="505" dominant-baseline="central" style="fill:rgb(28,28,26);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:14px;font-weight:500;text-anchor:start;dominant-baseline:central">1986</text>
-<text x="132" y="522" dominant-baseline="central" style="fill:rgb(28,28,26);opacity:0.7;stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:central">Recombinant Hepatitis B vaccine approved</text>
+<circle cx="104" cy="510" r="7" fill="#3c3489" stroke="#afa9ec" stroke-width="0.5"/>
+<text x="132" y="505" dominant-baseline="central" class="year">1986</text>
+<text x="132" y="522" dominant-baseline="central" class="desc">Recombinant Hepatitis B vaccine approved</text>
 
 <!-- 1990s -->
-<circle cx="104" cy="580" r="7" stroke-width="0.5" style="fill:rgb(60, 52, 137);stroke:rgb(175, 169, 236);color:rgb(255, 255, 255);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<text x="132" y="575" dominant-baseline="central" style="fill:rgb(28,28,26);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:14px;font-weight:500;text-anchor:start;dominant-baseline:central">1990s</text>
-<text x="132" y="592" dominant-baseline="central" style="fill:rgb(28,28,26);opacity:0.7;stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:central">EPO, Factor VIII, tPA, interferons in production</text>
+<circle cx="104" cy="580" r="7" fill="#3c3489" stroke="#afa9ec" stroke-width="0.5"/>
+<text x="132" y="575" dominant-baseline="central" class="year">1990s</text>
+<text x="132" y="592" dominant-baseline="central" class="desc">EPO, Factor VIII, tPA, interferons in production</text>
 
 <!-- 2000s -->
-<circle cx="104" cy="650" r="7" stroke-width="0.5" style="fill:rgb(113, 43, 19);stroke:rgb(240, 153, 123);color:rgb(255, 255, 255);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<text x="132" y="645" dominant-baseline="central" style="fill:rgb(28,28,26);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:14px;font-weight:500;text-anchor:start;dominant-baseline:central">2000s</text>
-<text x="132" y="662" dominant-baseline="central" style="fill:rgb(28,28,26);opacity:0.7;stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:central">Monoclonal antibody era — Humira, Herceptin, Rituxan</text>
+<circle cx="104" cy="650" r="7" fill="#712b13" stroke="#f0997b" stroke-width="0.5"/>
+<text x="132" y="645" dominant-baseline="central" class="year">2000s</text>
+<text x="132" y="662" dominant-baseline="central" class="desc">Monoclonal antibody era — Humira, Herceptin, Rituxan</text>
 
 <!-- 2010s -->
-<circle cx="104" cy="720" r="7" stroke-width="0.5" style="fill:rgb(113, 43, 19);stroke:rgb(240, 153, 123);color:rgb(255, 255, 255);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<text x="132" y="715" dominant-baseline="central" style="fill:rgb(28,28,26);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:14px;font-weight:500;text-anchor:start;dominant-baseline:central">2010s</text>
-<text x="132" y="732" dominant-baseline="central" style="fill:rgb(28,28,26);opacity:0.7;stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:central">CRISPR — programmable gene editing</text>
+<circle cx="104" cy="720" r="7" fill="#712b13" stroke="#f0997b" stroke-width="0.5"/>
+<text x="132" y="715" dominant-baseline="central" class="year">2010s</text>
+<text x="132" y="732" dominant-baseline="central" class="desc">CRISPR — programmable gene editing</text>
 
 <!-- 2021 -->
-<g onclick="sendPrompt('How do mRNA vaccines relate to synthetic biology?')" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">
-<circle cx="104" cy="790" r="10" stroke-width="0.5" style="fill:rgb(99, 56, 6);stroke:rgb(239, 159, 39);color:rgb(255, 255, 255);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
-<text x="132" y="782" dominant-baseline="central" style="fill:rgb(28,28,26);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:14px;font-weight:500;text-anchor:start;dominant-baseline:central">2021</text>
-<text x="132" y="800" dominant-baseline="central" style="fill:rgb(28,28,26);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:14px;font-weight:500;text-anchor:start;dominant-baseline:central">mRNA vaccines — delivering the instruction, not the protein</text>
-</g>
+<circle cx="104" cy="790" r="10" fill="#633806" stroke="#efa727" stroke-width="0.5"/>
+<text x="132" y="782" dominant-baseline="central" class="year">2021</text>
+<text x="132" y="800" dominant-baseline="central" class="year">mRNA vaccines — delivering the instruction, not the protein</text>
 
 <!-- Legend -->
-<g style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"><rect x="40" y="30" width="10" height="10" rx="2" stroke-width="0.5" style="fill:rgb(8, 80, 65);stroke:rgb(93, 202, 165);color:rgb(255, 255, 255);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/></g>
-<text x="56" y="40" dominant-baseline="central" style="fill:rgb(28,28,26);opacity:0.7;stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:central">Discovery</text>
-<g style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"><rect x="40" y="48" width="10" height="10" rx="2" stroke-width="0.5" style="fill:rgb(60, 52, 137);stroke:rgb(175, 169, 236);color:rgb(255, 255, 255);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/></g>
-<text x="56" y="58" dominant-baseline="central" style="fill:rgb(28,28,26);opacity:0.7;stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:central">First synthesis</text>
-<g style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"><rect x="40" y="66" width="10" height="10" rx="2" stroke-width="0.5" style="fill:rgb(113, 43, 19);stroke:rgb(240, 153, 123);color:rgb(255, 255, 255);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/></g>
-<text x="56" y="76" dominant-baseline="central" style="fill:rgb(28,28,26);opacity:0.7;stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:central">Industrial scale</text>
-<g style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"><rect x="40" y="84" width="10" height="10" rx="2" stroke-width="0.5" style="fill:rgb(99, 56, 6);stroke:rgb(239, 159, 39);color:rgb(255, 255, 255);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/></g>
-<text x="56" y="94" dominant-baseline="central" style="fill:rgb(28,28,26);opacity:0.7;stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:central">Watershed moment</text>
+<rect x="40" y="30" width="10" height="10" rx="2" fill="#085041" stroke="#5dca5d" stroke-width="0.5"/>
+<text x="56" y="40" dominant-baseline="central" class="desc">Discovery</text>
 
+<rect x="40" y="48" width="10" height="10" rx="2" fill="#3c3489" stroke="#afa9ec" stroke-width="0.5"/>
+<text x="56" y="58" dominant-baseline="central" class="desc">First synthesis</text>
+
+<rect x="40" y="66" width="10" height="10" rx="2" fill="#712b13" stroke="#f0997b" stroke-width="0.5"/>
+<text x="56" y="76" dominant-baseline="central" class="desc">Industrial scale</text>
+
+<rect x="40" y="84" width="10" height="10" rx="2" fill="#633806" stroke="#efa727" stroke-width="0.5"/>
+<text x="56" y="94" dominant-baseline="central" class="desc">Watershed moment</text>
 </svg>
