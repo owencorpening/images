@@ -74,16 +74,16 @@
 <text x="132" y="782" dominant-baseline="central" class="year">2021</text>
 <text x="132" y="800" dominant-baseline="central" class="year">mRNA vaccines — delivering the instruction, not the protein</text>
 
-<!-- Legend -->
-<rect x="40" y="30" width="10" height="10" rx="2" fill="#085041" stroke="#5dca5d" stroke-width="0.5"/>
-<text x="56" y="40" dominant-baseline="central" class="desc">Discovery</text>
+<!-- Legend — right side -->
+<rect x="520" y="30" width="10" height="10" rx="2" fill="#085041" stroke="#5dca5d" stroke-width="0.5"/>
+<text x="536" y="40" dominant-baseline="central" class="desc">Discovery</text>
 
-<rect x="40" y="48" width="10" height="10" rx="2" fill="#3c3489" stroke="#afa9ec" stroke-width="0.5"/>
-<text x="56" y="58" dominant-baseline="central" class="desc">First synthesis</text>
+<rect x="520" y="48" width="10" height="10" rx="2" fill="#3c3489" stroke="#afa9ec" stroke-width="0.5"/>
+<text x="536" y="58" dominant-baseline="central" class="desc">First synthesis</text>
 
-<rect x="40" y="66" width="10" height="10" rx="2" fill="#712b13" stroke="#f0997b" stroke-width="0.5"/>
-<text x="56" y="76" dominant-baseline="central" class="desc">Industrial scale</text>
+<rect x="520" y="66" width="10" height="10" rx="2" fill="#712b13" stroke="#f0997b" stroke-width="0.5"/>
+<text x="536" y="76" dominant-baseline="central" class="desc">Industrial scale</text>
 
-<rect x="40" y="84" width="10" height="10" rx="2" fill="#633806" stroke="#efa727" stroke-width="0.5"/>
-<text x="56" y="94" dominant-baseline="central" class="desc">Watershed moment</text>
+<rect x="520" y="84" width="10" height="10" rx="2" fill="#633806" stroke="#efa727" stroke-width="0.5"/>
+<text x="536" y="94" dominant-baseline="central" class="desc">Watershed moment</text>
 </svg>
